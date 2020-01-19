@@ -7,7 +7,7 @@
 Summary: Qt wrapper API to different RDF storage solutions
 Name:    soprano
 Version: 2.9.2
-Release: 1%{?dist}
+Release: 3%{?dist}
 
 License: LGPLv2+
 URL:     http://sourceforge.net/projects/soprano
@@ -202,6 +202,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.9.2-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.9.2-2
+- Mass rebuild 2013-12-27
+
 * Fri May 10 2013 Rex Dieter <rdieter@fedoraproject.org> 2.9.2-1
 - soprano-2.9.2
 
